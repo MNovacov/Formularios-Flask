@@ -1,0 +1,137 @@
+/* Fondo global y fuente */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú principal */
+.menu-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Título del menú */
+h1 {
+    font-size: 32px; /* Tamaño más grande */
+    color: #fff; /* Texto blanco */
+    margin-bottom: 30px; /* Espacio debajo del título */
+    text-align: center; /* Centrar el título */
+}
+
+
+/* Botones del menú principal */
+button {
+    background-color: #b800b8; /* Magenta */
+    color: white;
+    border: none;
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #900090; /* Magenta oscuro */
+}
+
+/* Botón verde específico */
+#ejercicio2 {
+    background-color: #72b800; /* Verde */
+}
+
+#ejercicio2:hover {
+    background-color: #5b9000; /* Verde oscuro */
+}
+
+/* Contenedor de botones en fila */
+.button-row {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 20px; /* Espacio entre botones */
+}
+
+/* Contenedor de los formularios */
+.container {
+    width: 400px;
+    background-color: #333; /* Fondo del formulario */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Títulos de los formularios */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc; /* Gris claro */
+}
+
+/* Campos de entrada (incluyendo contraseña) */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px; /* Bordes redondeados */
+    background-color: #444;
+    color: #fff; /* Texto blanco */
+    border: 1px solid #555;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #666; /* Cambia el borde al enfocarse */
+}
+
+
+/* Botón de enviar en los formularios */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066ff; /* Azul */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #004bbd; /* Azul más oscuro */
+}
+
+/* Caja de resultados */
+.result {
+    text-align: left;
+    background-color: #444;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    color: #ddd;
+}
